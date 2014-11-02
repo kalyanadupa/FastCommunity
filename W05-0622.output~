@@ -1,0 +1,6 @@
+Some researchers (Xue & Palmer, 2004; Koomen et al., 2005; Cohn & Blunsom, 2005; Punyakanok et al., 2008; Toutanova et al., 2005, 2008) used a pipelined approach to attack the task.
+
+7 Regarding novel learning paradigms not applied in previous shared tasks, we find Relevant Vector Machine (RVM), which is a kernel-based linear discriminant inside the framework of Sparse Bayesian Learning (Johansson & Nugues, 2005) and Tree Conditional Random Fields (T-CRF) (Cohn & Blunsom, 2005), that extend the sequential CRF model to tree structures.
+
+8 We use CRFs as our models for both tasks (Cohn & Blunsom, 2005).
+

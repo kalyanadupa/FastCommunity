@@ -1,0 +1,62 @@
+g++     -O3 -fomit-frame-pointer -funroll-loops -fforce-addr -fexpensive-optimizations -Wno-deprecated -o FastCommunity_wMH fastcommunity_w_mh.cc
+In file included from fastcommunity_w_mh.cc:82:0:
+maxheap.h: In member function ‘void maxheap::printHeap()’:
+maxheap.h:323:3: error: ‘cout’ was not declared in this scope
+   cout << A[i].d <<"\t["<<A[i].d->k<<"]\tdQ = "<<A[i].d->m<<"\t"<<A[i].d->i<<" -> "<<A[i].d->j<<"\n"; }
+   ^
+maxheap.h:323:3: note: suggested alternative:
+In file included from fastcommunity_w_mh.cc:74:0:
+/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
+In file included from fastcommunity_w_mh.cc:82:0:
+maxheap.h: In member function ‘void maxheap::printHeapTop10()’:
+maxheap.h:331:3: error: ‘cout’ was not declared in this scope
+   cout << A[i].d <<"\t["<<A[i].d->k<<"]\tdQ = "<<A[i].d->m<<"\t"<<A[i].d->i<<" -> "<<A[i].d->j<<"\n"; }
+   ^
+maxheap.h:331:3: note: suggested alternative:
+In file included from fastcommunity_w_mh.cc:74:0:
+/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
+In file included from fastcommunity_w_mh.cc:83:0:
+vektor.h: In member function ‘void vektor::printTree()’:
+vektor.h:536:2: error: ‘cout’ was not declared in this scope
+  cout << "\nTREE SIZE = " << support << endl;
+  ^
+vektor.h:536:2: note: suggested alternative:
+In file included from fastcommunity_w_mh.cc:74:0:
+/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
+In file included from fastcommunity_w_mh.cc:83:0:
+vektor.h:536:41: error: ‘endl’ was not declared in this scope
+  cout << "\nTREE SIZE = " << support << endl;
+                                         ^
+vektor.h:536:41: note: suggested alternative:
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from fastcommunity_w_mh.cc:74:
+/usr/include/c++/4.8/ostream:564:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+In file included from fastcommunity_w_mh.cc:83:0:
+vektor.h: In member function ‘void vektor::printSubTree(element*)’:
+vektor.h:549:3: error: ‘cout’ was not declared in this scope
+   cout << "(" << z->key << " " << z->stored << " " << z->color << ") [" << z->heap_ptr << "]"<<endl;
+   ^
+vektor.h:549:3: note: suggested alternative:
+In file included from fastcommunity_w_mh.cc:74:0:
+/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
+In file included from fastcommunity_w_mh.cc:83:0:
+vektor.h:549:96: error: ‘endl’ was not declared in this scope
+   cout << "(" << z->key << " " << z->stored << " " << z->color << ") [" << z->heap_ptr << "]"<<endl;
+                                                                                                ^
+vektor.h:549:96: note: suggested alternative:
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from fastcommunity_w_mh.cc:74:
+/usr/include/c++/4.8/ostream:564:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+make: *** [FastCommunity_wMH] Error 1

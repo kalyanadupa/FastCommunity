@@ -1,0 +1,13 @@
+called: g++
+	/home/lederp/Downloads/FastCommunity_w_GPL_v1.0.1/FastCommunity_w_GPL_v1.0.1
+	g++
+	-O3
+	-fomit-frame-pointer
+	-funroll-loops
+	-fforce-addr
+	-fexpensive-optimizations
+	-Wno-deprecated
+	-o
+	FastCommunity_wMH
+	fastcommunity_w_mh.cc
+

@@ -1,0 +1,16 @@
+FASTCOMMUNITY_INFERENCE_ALGORITHM
+START-----:	Wed Oct 22 21:06:08 2014
+---FILES--------
+DIRECTORY-:	
+F_IN------:	StringPB20.wpairs
+F_JOINS---:	StringPB20-fc_firstRun.joins
+F_INFO----:	StringPB20-fc_firstRun.info
+---NET_STATS----
+MAXID-----:	53
+NUMNODES--:	54
+NUMEDGES--:	515
+TOTALWT---:	13607
+---MODULARITY---
+MAXQ------:	0.170507
+STEP------:	50
+EXIT------:	Wed Oct 22 21:06:08 2014

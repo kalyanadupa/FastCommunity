@@ -1,0 +1,24 @@
+FASTCOMMUNITY_INFERENCE_ALGORITHM
+START-----:	Fri Oct 24 10:59:32 2014
+---FILES--------
+DIRECTORY-:	
+F_IN------:	StringPB_w.wpairs
+F_JOINS---:	StringPB_w-fc_2Run.joins
+F_INFO----:	StringPB_w-fc_2Run.info
+F_NET-----:	StringPB_w-fc_2Run.wpairs
+F_GROUPS--:	StringPB_w-fc_2Run.groups
+F_GDIST---:	StringPB_w-fc_2Run.hist
+---NET_STATS----
+MAXID-----:	53
+NUMNODES--:	54
+NUMEDGES--:	781
+TOTALWT---:	23684
+---GROUPS-------
+NUMGROUPS-:	4
+MINSIZE---:	1
+MEANSIZE--:	13.5
+MAXSIZE---:	23
+---MODULARITY---
+MAXQ------:	0.0967788
+STEP------:	51
+EXIT------:	Fri Oct 24 10:59:32 2014

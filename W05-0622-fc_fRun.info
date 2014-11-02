@@ -1,0 +1,16 @@
+FASTCOMMUNITY_INFERENCE_ALGORITHM
+START-----:	Mon Oct 27 17:15:22 2014
+---FILES--------
+DIRECTORY-:	
+F_IN------:	W05-0622.wpairs
+F_JOINS---:	W05-0622-fc_fRun.joins
+F_INFO----:	W05-0622-fc_fRun.info
+---NET_STATS----
+MAXID-----:	8
+NUMNODES--:	9
+NUMEDGES--:	25
+TOTALWT---:	861
+---MODULARITY---
+MAXQ------:	0.078959
+STEP------:	6
+EXIT------:	Mon Oct 27 17:15:22 2014

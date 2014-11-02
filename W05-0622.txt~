@@ -1,0 +1,4 @@
+1 Some researchers (Xue & Palmer, 2004; Koomen et al., 2005; Cohn & Blunsom, 2005; Punyakanok et al., 2008; Toutanova et al., 2005, 2008) used a pipelined approach to attack the task.
+2 They have been used for tree labelling, in XML tree labelling (Jousse et al., 2006) and semantic role labelling tasks (Cohn & Blunsom, 2005).
+3 Finally, probabilistic models have also been applied to produce the structured output, for example, generative models (Thompson, Levy, & Manning, 2003), sequence tagging with classifiers (M`rquez et al., 2005; Pradhan et al., a  2005), and Conditional Random Fields on tree structures (Cohn & Blunsom 2005).
+
